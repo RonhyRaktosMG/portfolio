@@ -11191,6 +11191,18 @@ p {
   visibility: visible;
 }
 
+
+/*Skill*/
+.skill-container {
+  width: 200px;
+  transition: 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.skill-container:hover {
+  width: 200px;
+  transform: scale(1.13);
+}
+
+
 /*/ portfolio wrapper */
 .portfolio-card {
   display: block;
