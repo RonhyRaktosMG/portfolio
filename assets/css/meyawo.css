@@ -11202,6 +11202,15 @@ p {
   transform: scale(1.13);
 }
 
+/* Certification */
+.certification-container{
+  width: 300px;
+  border-width: 2px !important;
+  background-color: #544885;
+  color: white;
+  box-shadow: 0px 0px 15px #493f75;
+  border-radius: 15px;
+}
 
 /*/ portfolio wrapper */
 .portfolio-card {
