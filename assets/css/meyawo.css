@@ -11486,6 +11486,12 @@ p {
   top: 1px;
 }
 
+.blog-card-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 991.98px) {
   .blog-card {
     -webkit-box-orient: vertical;
@@ -12205,6 +12211,7 @@ pre .code {
 .about-img-holder .about-img {
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 200px 200px 50px 50px;
 }
 
 .about-caption {
@@ -12267,7 +12274,6 @@ pre .code {
   justify-content: space-between;
   padding: 20px 35px;
   align-items: center;
-  position: fixed;
   width: 100%;
   background-color: #695aa6a5;
   
